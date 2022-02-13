@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="236-2366657_nyancat-sticker-nyan-cat-logo-png-transparent-png.png" />
+    <None Remove="cat.png" />
+    <None Remove="kkrn_icon_chui_18.png" />
+    <None Remove="kkrn_icon_chui_9.png" />
+    <None Remove="OIP %281%29.jpg" />
+    <None Remove="OIP.jpg" />
+    <None Remove="R.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="236-2366657_nyancat-sticker-nyan-cat-logo-png-transparent-png.png" />
+    <Resource Include="cat.png" />
+    <Resource Include="kkrn_icon_chui_18.png" />
+    <Resource Include="kkrn_icon_chui_9.png" />
+    <Resource Include="OIP (1).jpg" />
+    <Resource Include="OIP.jpg" />
+    <Resource Include="R.png" />
+  </ItemGroup>
+
+</Project>
